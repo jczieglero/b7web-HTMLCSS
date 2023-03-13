@@ -21,6 +21,7 @@ header {
     width: 990px;
     color: #FFFFFF;
     padding: 20px;
+    justify-content: space-between;
 }
 
 .title {
@@ -39,7 +40,13 @@ nav ul,
 nav li {
     list-style: none;
     color: #FFFFFF;
+    margin: 0;
+    padding: 0;
     
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
 }
 nav a {
     display: block;
